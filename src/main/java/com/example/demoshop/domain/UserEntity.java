@@ -20,11 +20,12 @@ public class UserEntity extends BaseEntiy {
     private String username;
 
     @Column
-    private String password;
-
-    @Column
     private String fullName;
 
     @Column
     private String phoneNumber;
+    @Column
+    private String address;
+
+
 }
